@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: 'Bebas Neue', cursive;
+  
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+}
+
+.head > p {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 200%;
+  /* font-weight: 900; */
+  /* letter-spacing: 2px; */
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10%;
+}
+
+.link>a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 150%;
+  text-align: center;
+  border: 3px solid #ff0;
+  background-color: #222;
+  border-radius: 100px;
+  margin: 1vh 5vh;
+  padding: 2%;
+}
+
+.link>a:hover {
+  background-color: #000;
+  margin: 1vh 4vh;
+  font-size: 160%;
+}
+
+
+.footer {
+  position: absolute;
+  /* display: flex; */
+  /* top: 50ch; */
+  left: 0%;
+  right: 0%;
+  bottom: 10%;
+  text-align: center;
+
+  
+}
+
+.footer > i {
+  color: white;
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+

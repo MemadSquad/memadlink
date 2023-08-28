@@ -1,0 +1,15 @@
+
+
+body{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+
+
+.ig {
+    font-size: 50%;
+}
+
+.made {
+    font-size: 2vh;
+}
